@@ -1,0 +1,7 @@
+[req]
+req_extensions = v3_req
+
+[v3_req]
+basicConstraints = critical, CA:FALSE
+keyUsage = critical, digitalSignature, keyEncipherment
+extendedKeyUsage = critical, serverAuth, clientAuth
